@@ -1,11 +1,13 @@
 import React from 'react'
 import './Section.css';
 import styled from "styled-components";
-
+import Fade from 'react-reveal/Fade';
+import KeyboardArrowDownIcon from '@material-ui/icons/KeyboardArrowDown';
 
 // const btn = () =>{
 
-//     if (this.props.rightBtn){
+//     if (this.props.rightBtn && this.props.leftBtn){
+
 //         return(
             
 //                 <div className='rightButton'>
@@ -23,21 +25,30 @@ function Section(props) {
     return (
         <Layout bgImage={props.backImage} >
          
+         <Fade bottom>
+          
+        
             <div className="ItemTexts">
                 <h1>{props.title}</h1>
                 <p> {props.description}</p>
 
             </div>
 
+            </Fade>
+
 
             <div className="buttons">
 
 
+            <Fade bottom>
+
             <div className = 'buttonGroup'>
+
                 <div className='leftButton'>
                         {props.leftBtn}
                     </div> 
-                     
+
+                 
                 {props.rightBtn && 
                     <div className='rightButton'>
                         {props.rightBtn}
@@ -45,9 +56,12 @@ function Section(props) {
                     }
             </div>
 
-         
-             <img src="C:\Users\onibarca\Desktop\Tesla\tesla_clone\public\images\down-arrow.svg"/>
-                
+            </Fade>
+
+            
+            <div className="arrowLogo">
+          <KeyboardArrowDownIcon/>
+                </div>
 
                  </div>
         

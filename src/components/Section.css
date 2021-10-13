@@ -33,7 +33,7 @@
 .leftButton{
 
     background-color: white;
-    height: 40px;
+     height: 40px;
     width: 256px;
     color: white;
     display: flex;
@@ -69,10 +69,10 @@
 
 
 
-img{
+.arrowLogo{
    
     margin-bottom: 20px;
     height: 40px;
     animation: animatearrow infinite 1.5s;
-
+   
 }

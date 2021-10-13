@@ -13,6 +13,11 @@ body {
 
 }
 
+a{
+  text-decoration: none;
+  cursor: pointer;
+}
+
 
 @keyframes animatearrow {
   0% , 20%, 50%, 80%, 100% {
