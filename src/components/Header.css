@@ -9,7 +9,7 @@
     top: 0;
     right: 0;
     left: 0;
-
+    z-index: 1;
 
 } 
 
@@ -47,7 +47,34 @@ a{
 }
 
 
-.navbar{
-    
+/* .navbar{
+
+    position: fixed;
+    top:0;
+    bottom: 0;
+    right: 0;
+
+    background: white ;
+    width: 300px;
+    z-index: 16;
+    list-style: none;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+
+} */
+
+.navbar li{
+    padding: 15px 0;
+    border-bottom : 1px solid rgba(0, 0, 0, 0.2);
+
+}
+
+.closeIcon{
+
+    /* float: right; */
+    display: flex;
+    justify-content: flex-end;
 
 }
