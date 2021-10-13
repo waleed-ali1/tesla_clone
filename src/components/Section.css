@@ -1,17 +1,20 @@
-.layout {
+/* .layout {
 
     width: 100vw;
     height: 100vh;
-    background-image: url('/images/model-3.jpg');
-    background-position: center;
+    /* background-image: url('/images/model-3.jpg'); */
+    /* background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    background-image: url('/images/${props.bgImage}'); } */
     
-}
+
+
+
 .ItemTexts{
     /* margin-top: 15vh; */
     padding-top: 15vh;
@@ -66,8 +69,9 @@
 
 
 
-.arrow{
-    margin-top: 20px;
+img{
+   
+    margin-bottom: 20px;
     height: 40px;
     animation: animatearrow infinite 1.5s;
 
